@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C35E5D461C4E166900F636A6 /* here.png in Resources */ = {isa = PBXBuildFile; fileRef = C35E5D451C4E166900F636A6 /* here.png */; };
 		C3E186691C474836000C8235 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E186681C474836000C8235 /* main.m */; };
 		C3E1866C1C474836000C8235 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E1866B1C474836000C8235 /* AppDelegate.m */; };
 		C3E1866F1C474836000C8235 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E1866E1C474836000C8235 /* ViewController.m */; };
 		C3E186721C474836000C8235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E186701C474836000C8235 /* Main.storyboard */; };
 		C3E186741C474836000C8235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E186731C474836000C8235 /* Assets.xcassets */; };
 		C3E186771C474836000C8235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E186751C474836000C8235 /* LaunchScreen.storyboard */; };
+		C3E186801C47500D000C8235 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E1867F1C47500D000C8235 /* MapViewController.m */; };
+		C3E186831C475030000C8235 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E186821C475030000C8235 /* DataViewController.m */; };
+		C3E186891C47812E000C8235 /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E186881C47812E000C8235 /* CustomAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C35E5D451C4E166900F636A6 /* here.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = here.png; sourceTree = "<group>"; };
 		C3E186641C474836000C8235 /* MapData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E186681C474836000C8235 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3E1866A1C474836000C8235 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,12 @@
 		C3E186731C474836000C8235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3E186761C474836000C8235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3E186781C474836000C8235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E1867E1C47500D000C8235 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		C3E1867F1C47500D000C8235 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		C3E186811C475030000C8235 /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		C3E186821C475030000C8235 /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		C3E186871C47812E000C8235 /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		C3E186881C47812E000C8235 /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +72,16 @@
 				C3E1866A1C474836000C8235 /* AppDelegate.h */,
 				C3E1866B1C474836000C8235 /* AppDelegate.m */,
 				C3E1866D1C474836000C8235 /* ViewController.h */,
+				C3E186871C47812E000C8235 /* CustomAnnotation.h */,
+				C3E186881C47812E000C8235 /* CustomAnnotation.m */,
 				C3E1866E1C474836000C8235 /* ViewController.m */,
 				C3E186701C474836000C8235 /* Main.storyboard */,
+				C3E1867E1C47500D000C8235 /* MapViewController.h */,
+				C3E1867F1C47500D000C8235 /* MapViewController.m */,
 				C3E186731C474836000C8235 /* Assets.xcassets */,
 				C3E186751C474836000C8235 /* LaunchScreen.storyboard */,
+				C3E186811C475030000C8235 /* DataViewController.h */,
+				C3E186821C475030000C8235 /* DataViewController.m */,
 				C3E186781C474836000C8235 /* Info.plist */,
 				C3E186671C474836000C8235 /* Supporting Files */,
 			);
@@ -74,6 +91,7 @@
 		C3E186671C474836000C8235 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C35E5D451C4E166900F636A6 /* here.png */,
 				C3E186681C474836000C8235 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +158,7 @@
 				C3E186771C474836000C8235 /* LaunchScreen.storyboard in Resources */,
 				C3E186741C474836000C8235 /* Assets.xcassets in Resources */,
 				C3E186721C474836000C8235 /* Main.storyboard in Resources */,
+				C35E5D461C4E166900F636A6 /* here.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +172,9 @@
 				C3E1866F1C474836000C8235 /* ViewController.m in Sources */,
 				C3E1866C1C474836000C8235 /* AppDelegate.m in Sources */,
 				C3E186691C474836000C8235 /* main.m in Sources */,
+				C3E186891C47812E000C8235 /* CustomAnnotation.m in Sources */,
+				C3E186801C47500D000C8235 /* MapViewController.m in Sources */,
+				C3E186831C475030000C8235 /* DataViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +286,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MapData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.MapData;
+				PRODUCT_BUNDLE_IDENTIFIER = targui625.techAcademy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -275,7 +297,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MapData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.MapData;
+				PRODUCT_BUNDLE_IDENTIFIER = targui625.techAcademy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -299,6 +321,7 @@
 				C3E1867D1C474836000C8235 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
